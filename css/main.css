@@ -14,6 +14,7 @@
 
 .child {
   background-color: green;
+  color: red;
   border: 2px solid black;
 }
 
@@ -55,6 +56,7 @@
 
 .parent-area {
   display: grid;
+  background-color: gold;
   grid-template-areas: "one one one one" "two two three three" "two two four five";
 }
 
